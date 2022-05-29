@@ -14,8 +14,7 @@ Inspirations, approaches, datasets and state-of-art about Transformers and its v
 
 ### Transformers Overview
 
-
-| ![Images/TheTransformer-ModelArchitecture.png](images/TheTransformer-ModelArchitecture.png) | 
+[<img src="Images/TheTransformer-ModelArchitecture.png" width="760"/>](Images/TheTransformer-ModelArchitecture.png)
 |:--:| 
 | *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
 
