@@ -18,6 +18,7 @@ Inspirations, approaches, datasets and state-of-art about Transformers and its v
     5.5 [Feed-Forward MLP](#feed-forward-mlp)  
 7. [Transformers Neural Network References](#transformers-neural-network-refs)
 8. [Graph Transformers Neural Network References](#graph-transformers-neural-network-refs)
+9. [Codes](#codes)
 
 
 ### 
@@ -177,3 +178,6 @@ If we were to do multiple parallel heads of neighbourhood aggregation and replac
 * [Reading checks with multilayer graph transformer networks](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0030677452&partnerID=40&md5=1f5fcd43bfd8c940f85e37b14e232b4f)  
 * [Global training of document processing systems using graph transformer networks](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0030648914&partnerID=40&md5=a81bd5847e8892658b8ebc496ead0e6b)  
 * [Δ-Languages for sets and sub-PTIME graph transformers](https://www.scopus.com/inward/record.uri?eid=2-s2.0-21844520085&doi=10.1007%2f3-540-58907-4_11&partnerID=40&md5=1f63a078e1515950a445f38930bac711)  
+
+
+#### Codes <a name="codes"></a>
