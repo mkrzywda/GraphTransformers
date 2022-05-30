@@ -42,9 +42,20 @@ The attention mechanism describes a recent new group of layers in neural network
 
 #### Scaled Dot Product Attention <a name="scaled-dot-product-mechanism"></a>
 
+[<img src="Images/ScaledDot-ProductAttention.png" width="760"/>](Images/ScaledDot-ProductAttention.png)
+|:--:| 
+| *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
+
+
 The core concept behind self-attention is the scaled dot product attention. Our goal is to have an attention mechanism with which any element in a sequence can attend to any other while still being efficient to compute. 
 
 #### Multi-Head Attention <a name="multi-head-attention"></a>
+
+[<img src="Images/Multi-HeadAttentition.png" width="760"/>](Images/Multi-HeadAttentition.png)
+|:--:| 
+| *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
+
+
 
 The scaled dot product attention allows a network to attend over a sequence. However, often there are multiple different aspects a sequence element wants to attend to, and a single weighted average is not a good option for it. This is why we extend the attention mechanisms to multiple heads, i.e. multiple different query-key-value triplets on the same features. Specifically, given a query, key, and value matrix, we transform those into  ℎ  sub-queries, sub-keys, and sub-values, which we pass through the scaled dot product attention independently.
 
