@@ -25,7 +25,7 @@ Inspirations, approaches, datasets and state-of-art about Transformers and its v
 
 ### Transformers Overview <a name="transformers-overview"></a>
 
-[<img src="Images/TheTransformer-ModelArchitecture.png" width="760"/>](Images/TheTransformer-ModelArchitecture.png)
+[<img src="Images/TheTransformer-ModelArchitecture.png" width="360"/>](Images/TheTransformer-ModelArchitecture.png)
 |:--:| 
 | *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
 
@@ -42,7 +42,7 @@ The attention mechanism describes a recent new group of layers in neural network
 
 #### Scaled Dot Product Attention <a name="scaled-dot-product-mechanism"></a>
 
-[<img src="Images/ScaledDot-ProductAttention.png" width="760"/>](Images/ScaledDot-ProductAttention.png)
+[<img src="Images/ScaledDot-ProductAttention.png" width="360"/>](Images/ScaledDot-ProductAttention.png)
 |:--:| 
 | *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
 
@@ -51,7 +51,7 @@ The core concept behind self-attention is the scaled dot product attention. Our 
 
 #### Multi-Head Attention <a name="multi-head-attention"></a>
 
-[<img src="Images/Multi-HeadAttentition.png" width="760"/>](Images/Multi-HeadAttentition.png)
+[<img src="Images/Multi-HeadAttention.png" width="360"/>](Images/Multi-HeadAttention.png)
 |:--:| 
 | *Source: [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)* |
 
@@ -80,6 +80,13 @@ If we were to do multiple parallel heads of neighbourhood aggregation and replac
 #### Improved Attention Matrices from Graphs <a name="improved-attention-matrices-from-graphs"></a>
 
 #### Graph Attention Network (GAT) <a name="graph-attention-network"></a>
+
+[<img src="Images/GAT.png" width="360"/>](Images/GAT.png)
+|:--:| 
+| *Source: [Graph Attention Networks](https://petar-v.com/GAT/)* |
+
+Graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems.
+
 
 ### Feed-Forward MLP <a name="feed-forward-mlp"></a>
 
