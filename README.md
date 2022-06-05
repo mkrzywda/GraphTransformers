@@ -228,3 +228,16 @@ The feed-forward layer is weights that is trained during training and the exact 
 
 
 #### Codes <a name="codes"></a>
+
+* [Text Generation from Knowledge Graphs with Graph Transformers](https://github.com/rikdz/GraphWriter)
+* [A Generalization of Transformer Networks to Graphs](https://github.com/graphdeeplearning/graphtransformer)
+* [Implementation of Graph Transformer Networks(GTN)](https://github.com/seongjunyun/Graph_Transformer_Networks)
+* [Universal Graph Transformer Self-Attention Networks](https://github.com/daiquocnguyen/Graph-Transformer)	
+* [Graph Augmented Transformers for Medication Recommendation](https://github.com/jshang123/G-Bert)
+* [Heterogeneous Graph Transformer (HGT)](https://github.com/acbull/pyHGT)
+* [Graph Transformer for Graph-to-Sequence Learning](https://github.com/jcyk/gtos)
+* [Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction](https://github.com/Majiker/STAR)
+* [Gated Graph Transformers](https://github.com/chaitjo/gated-graph-transformers)
+* [TorchMD-NET provides state-of-the-art graph neural networks and equivariant transformer neural networks potentials for learning molecular potentials.](https://github.com/torchmd/torchmd-net)
+* [Heterogeneous Graph Transformer for Graph-to-Sequence Learning](https://github.com/QAQ-v/HetGT)
+* [Graph Neural Networks for Multi-Label Classification](https://github.com/QData/LaMP)
