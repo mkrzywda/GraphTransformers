@@ -265,10 +265,8 @@ The feed-forward layer is weights that is trained during training and the exact 
 * [Machine learning for sequential data: A review](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84951778046&doi=10.1007%2f3-540-70659-3_2&partnerID=40&md5=e19e0e404d98d539432eb4257b64681b)  
 * [Object recognition with gradient-based learning](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84947927646&doi=10.1007%2f3-540-46805-6_19&partnerID=40&md5=282291b836456fd50cbfd91f6789d009)  
 * [Gradient-based learning applied to document recognition](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0032203257&doi=10.1109%2f5.726791&partnerID=40&md5=bcd0f8af84203ead7e96411039389e6b)  
-* [Δ-languages for sets and LOGSPACE computable graph transformers](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0031094818&doi=10.1016%2fS0304-3975%2896%2900174-0&partnerID=40&md5=9c2407c979700c22515d03b005909160)   
 * [Reading checks with multilayer graph transformer networks](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0030677452&partnerID=40&md5=1f5fcd43bfd8c940f85e37b14e232b4f)  
 * [Global training of document processing systems using graph transformer networks](https://www.scopus.com/inward/record.uri?eid=2-s2.0-0030648914&partnerID=40&md5=a81bd5847e8892658b8ebc496ead0e6b)  
-* [Δ-Languages for sets and sub-PTIME graph transformers](https://www.scopus.com/inward/record.uri?eid=2-s2.0-21844520085&doi=10.1007%2f3-540-58907-4_11&partnerID=40&md5=1f63a078e1515950a445f38930bac711)  
 
 
 #### Codes <a name="codes"></a>
