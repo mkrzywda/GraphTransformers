@@ -1,5 +1,6 @@
 # GraphTransformers
-Inspirations, approaches, datasets and state-of-art about Transformers and its variations.
+Inspirations, approaches, datasets and state-of-art about Transformers and its variations.  
+Only for research and better understanding ideas of (Graph) Transformers Network.
 
 ## Table of Contents
 1. [Transformers Overview](#transformers-overview)
