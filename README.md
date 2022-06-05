@@ -75,9 +75,35 @@ If we were to do multiple parallel heads of neighbourhood aggregation and replac
 
 #### GNNs as Auxiliary Modules in Transformer <a name="gnn-as-auxiliary-modules-in-transformer"></a>
 
+[<img src="Images/GNN-GTN.png" width="360"/>](Images/GNN-GTN.png)
+|:--:| 
+| *Source: [Transformer for Graphs: An Overview from Architecture Perspective](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)(https://arxiv.org/pdf/2202.08455.pdf)* |
+
+
+The most direct solution of involving structural knowledge to benefit from global relation modeling of self-attention is to combine graph neural networks with Transformer architecture. Generally, according to the relative postion between GNN layers and Transformer layers, existing Transformer architectures with GNNs are categorized into three types as illustrated in Figure 1:
+- (1) building Transformer blocks on top of GNN blocks, 
+- (2) alternately stacking GNN blocks and Transformer blocks,
+- (3) parallelizing GNN blocks and Transformer blocks.
+
+The first architecture is most-frequently adopted among the three options. For example, [GraphTrans](https://proceedings.neurips.cc/paper/2021/file/6e67691b60ed3e4a55935261314dd534-Paper.pdf) adds a Transformer subnetwork on top of a standard GNN layer. The GNN layer performs as a specialized architecture to learn local representations of the structure of a node’s immediate neighbourhood, while the Transformer subnetwork computes all pairwise node interactions in a position-agnostic fashion, empowering the model global reasoning capability.
+
+GraphTrans is evaluated on graph classification task from biology, computer programming and chemistry, and achieves consistent improvement over benchmarks. [Grover](https://arxiv.org/abs/1907.10903) consists of two GTransformer modules to represent node-level features and edge-level features respectively. In each GTransformer, the inputs are first fed into a tailored GNNs named dyMPN to extract vectors as queries, keys and values from nodes of the graph, followed by standard multi-head attention blocks. This bi-level information extraction framework enables the model to capture the structural information in molecular data and make it possible to extract global relations between nodes, enhancing the representational power of Grover.
+
+[GraphiT](https://arxiv.org/abs/2106.05667) also falls in the first architecture, which adopts one [Graph Convolutional Kernel Network (GCKN)](https://arxiv.org/abs/2003.05189) layer to produce a structureaware representation from original features, and concatenate them as the input of Transformer architecture. Here, GCKNs is a multi-layer model that produces a sequence of graph feature maps similar to a GNN. Different from GNNs, each layer of GCKNs enumerates local sub-structures at each node, encodes them using a kernel embedding, and aggregates the sub-structure representations as outputs. These representations in a feature map carry more structural information than traditional GNNs based on neighborhood aggregation. 
+
+[Mesh Graphormer](https://arxiv.org/abs/2104.00272) follows the second architecture by stacking a Graph Residual Block (GRB) on a multi-head self-attention layer as a Transformer block to model both local and global interactions among 3D mesh vertices and body joints.
+
+
 #### Improved Positional Embeddings from Graphs <a name="improved-positional-embeddings-from-graphs"></a>
 
+Although combining graph neural networks and Transformer has shown effectiveness in modeling graph-structured data, the best architecture to incorporate them remains an issue and requires heavy hype-parameter searching. Therefore, it is meaningful to explore a graph-encoding strategy without adjustment of the Transformer architecture. Similar to the positional encoding in Transformer for sequential data such as sentences, it is also possible to compress the graph structure into positional embedding (PE) vectors and add them to the input before it is fed to the actual Transformer model.
+
+
+
 #### Improved Attention Matrices from Graphs <a name="improved-attention-matrices-from-graphs"></a>
+
+Although node positional embedding is a convenient practice to inject graph priors into Transformer architectures, the progress of compressing graph structure into fixed-sized vectors suffers from information loss, which might limit their effectiveness. One line of models adapts self-attention mechanism to GNN-like architectures by restricting a node only attending to local node neighbours in the graph, which can be computationally formulated as an attention masking mechanism. One possible extension of this practice is masking the attention matrices of different heads with different graph priors. In the original multi-head self-attention blocks, different attention heads implicitly attend to information from different representation subspaces of different nodes. While in this case, using the graph-masking mechanism to enforce the heads explicitly attend to different subspaces with graph priors further improves the model representative capability for graph data. 
+
 
 #### Graph Attention Network (GAT) <a name="graph-attention-network"></a>
 
@@ -90,10 +116,12 @@ Graph attention networks (GATs), novel neural network architectures that operate
 
 ### Feed-Forward MLP <a name="feed-forward-mlp"></a>
 
+The feed-forward layer is weights that is trained during training and the exact same matrix is applied to each respective token position. Since it is applied without any communcation with or inference by other token positions it is a highly parallelizable part of the model.
+
 #### Transformers Neural Network References <a name="transformers-neural-network-refs"></a>
 
-#### Graph Transformers Neural Network References <a name="graph-transformers-neural-network-refs"></a>
 
+#### Graph Transformers Neural Network References <a name="graph-transformers-neural-network-refs"></a>
 
 * [A Generalization of Transformer Networks to Graphs](https://www.semanticscholar.org/paper/A-Generalization-of-Transformer-Networks-to-[Graphs-Dwivedi-Bresson/849b88ddc8f8cabc6d4246479b275a1ee65d0647)  
 * [LET: Linguistic Knowledge Enhanced Graph Transformer for Chinese Short Text Matching](https://www.semanticscholar.org/paper/LET%3A-Linguistic-Knowledge-Enhanced-Graph-for-Short-Lyu-Chen/d8e8e35bf4cf8821ade2d58b34d9ae23a9b08ab2)  
