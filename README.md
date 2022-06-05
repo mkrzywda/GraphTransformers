@@ -121,6 +121,50 @@ The feed-forward layer is weights that is trained during training and the exact 
 
 #### Transformers Neural Network References <a name="transformers-neural-network-refs"></a>
 
+* [Training Vision Transformers for Image Retrieval](https://arxiv.org/abs/2102.05644)]
+* [TransReID: Transformer-based Object Re-Identification](https://arxiv.org/abs/2102.04378)]
+* [Video Transformer Network](https://arxiv.org/abs/2102.00719)
+* [Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet](https://arxiv.org/abs/2101.11986)
+* [Bottleneck Transformers for Visual Recognition](https://arxiv.org/abs/2101.11605)
+* [Full Transformer Network for Image Captioning](https://arxiv.org/abs/2101.10804)
+* [Learn to Dance with AIST++: Music Conditioned 3D Dance Generation](https://arxiv.org/abs/2101.08779)
+* [Segmenting Transparent Object in the Wild with Transformer](https://github.com/xieenze/Trans2Seg)
+* [Fast Convergence of DETR with Spatially Modulated Co-Attention](https://arxiv.org/abs/2101.07448)
+* [Investigating the Vision Transformer Model for Image Retrieval Tasks](https://arxiv.org/abs/2101.03771)
+* [Trear: Transformer-based RGB-D Egocentric Action Recognition](https://arxiv.org/abs/2101.03904)
+* [End-to-End Video Instance Segmentation with Transformers](https://arxiv.org/abs/2011.14503)
+* [VisualSparta: Sparse Transformer Fragment-level Matching for Large-scale Text-to-Image Search](https://arxiv.org/abs/2101.00265)
+* [TrackFormer: Multi-Object Tracking with Transformers](https://arxiv.org/abs/2101.02702)
+* [Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909)
+* [Transformer Guided Geometry Model for Flow-Based Unsupervised Visual Odometr](https://arxiv.org/abs/2101.02143)
+* [Transformer for Image Quality Assessment](https://arxiv.org/abs/2101.01097)
+* [TransTrack: Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2012.15460)
+* [Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840)
+* [TransPose: Towards Explainable Human Pose Estimation by Transformer](https://arxiv.org/abs/2012.14214)
+* [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
+* [3D Object Detection with Pointformer ](https://arxiv.org/abs/2012.11409)
+* [Toward Transformer-Based Object Detection ](https://arxiv.org/abs/2012.09958)
+* [Taming Transformers for High-Resolution Image Synthesis ](https://arxiv.org/abs/2012.09841)
+* [SceneFormer: Indoor Scene Generation with Transformers ](https://arxiv.org/abs/2012.09793) 
+* [PCT: Point Cloud Transformer ](https://arxiv.org/abs/2012.09688)] 
+* [Transformer Interpretability Beyond Attention Visualization](https://arxiv.org/abs/2012.09838)
+* [End-to-End Human Pose and Mesh Reconstruction with Transformers](https://arxiv.org/abs/2012.09760)
+* [Point Transformer](https://arxiv.org/abs/2012.09164)
+* [Pedestrian Detection](https://arxiv.org/abs/2012.06785)
+* [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/abs/2011.09094)
+* [MODELING LONG-RANGE INTERACTIONS WITHOUT ATTENTION](https://openreview.net/pdf?id=xTJEN-ggl1b)
+* [General Multi-label Image Classification with Transformers](https://arxiv.org/abs/2011.14027)
+* [Rethinking Transformer-based Set Prediction for Object Detection](https://arxiv.org/abs/2011.10881)
+* [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
+* [End-to-End Object Detection with Adaptive Clustering Transformer](https://arxiv.org/abs/2011.09315)
+* [Visual Transformers: Token-based Image Representation and Processing for Computer Vision](https://arxiv.org/abs/2006.03677)
+* [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
+* [Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159)
+* [End-to-end Lane Shape Prediction with Transformers](https://arxiv.org/abs/2011.04233)
+* [End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)
+* [Feature Pyramid Transformer](https://arxiv.org/abs/2007.09451)
+* [Learning Texture Transformer Network for Image Super-Resolution](https://arxiv.org/abs/2006.04139)
+
 
 #### Graph Transformers Neural Network References <a name="graph-transformers-neural-network-refs"></a>
 
