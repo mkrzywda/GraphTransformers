@@ -1,6 +1,14 @@
+# Open for review apporches.
+Graph Transformer networks are an emerging trend in the field of deep learning, offering promising results in tasks such as graph classification and node labeling. With this in mind, this repository is opening its doors for a more comprehensive review of Graph Transformers.
+My goal is to further advance this exciting field and provide a deeper understanding of its capabilities and limitations. Join to me (write: krzywda@agh.edu.pl)and help in exploring the potential of Graph Transformers and contributing to their development.
+Stay tuned for more updates on this exciting journey.
+
+I am open for working on more complex survey/review Graph Transformers.
+
 # GraphTransformers
 Inspirations, approaches, datasets and state-of-art about Transformers and its variations.  
 Only for research and better understanding ideas of (Graph) Transformers Network.
+
 
 ## Table of Contents
 1. [Transformers Overview](#transformers-overview)
